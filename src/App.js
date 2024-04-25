@@ -32,7 +32,7 @@ function App() {
       Swal.fire({
         title: "<strong>Registro exitoso!</strong>",
         html: "<i>El empleado  <strong>" + nombre + "</strong> fue registrado con exito!</i>",
-        icon: 'sucess',
+        icon: 'success',
         timer: 2000
       })
     })
@@ -62,7 +62,7 @@ function App() {
       Swal.fire({
         title: "<strong>Actualizacion  Exitosa!!!</strong>",
         html: "<i>El empleado  <strong>" + nombre + "</strong> fue Actualizado  con exito!</i>",
-        icon: 'sucess',
+        icon: 'success',
         timer: 2000
       })
     })
@@ -95,7 +95,7 @@ function App() {
             Swal.fire({
               title: "Eliminado",
               html: "<i> "+val.nombre+" fue eliminado.</i>",
-              icon: "sucess",
+              icon: "success",
               timer: 3000
             });
           })
